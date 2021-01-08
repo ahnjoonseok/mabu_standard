@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <meta property="og:image" content="" />
+    <meta property="og:url"                content="" />
+    <meta property="og:type"               content="article" />
+    <meta property="og:title"              content="마부작침 인터렉티브 페이지" />
+    <meta property="og:description"        content="지난 10년 간 우리가 버린 유기동물이 95만 마리나 되는 거 알고 계셨나요? " />
+    
     <script src="https://kit.fontawesome.com/8884e7ded1.js" crossorigin="anonymous"></script>
 
     <title>Document</title>
@@ -19,16 +27,9 @@
             여기는 제목이 들어갈 것 같습니다
         </div>
         <ul class="navbar_links">
-            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
-            <li><a href=""><i class="fab fa-twitter"></i></a></li>
-            <li class="navbar_toggleButton"><i class="fas fa-bars"></i></li>
+            <li><i id="share_facebook" class="fab fa-facebook-f"></i></li>
+            <li><i id="share_twitter" class="fab fa-twitter"></i></li>
         </ul>
-        <ul class="navbar_menu">
-            <li><a href="">1번메뉴</a></li>
-            <li><a href="">2번메뉴</a></li>
-            <li><a href="">3번메뉴</a></li>
-            <li><a href="">4번메뉴</a></li>
-        </ul>     
     </nav>
 
     <main>
@@ -44,23 +45,67 @@
             <section class="standard">
                 <div class="text">
                     <p>
-                        1978년 10월 15일, 프랑스 파리 유네스코 본부에서 선포된 세계 동물권리 선언의 제1조는 “모든 동물은 태어나면서부터 평등한 생명권과 존재할 권리를 가진다.”입니다. 세계 인권선언 이후 30년 만에 동물권 선언이 나온 거죠. 그로부터 10여 년 뒤인 1991년, 한국에서는 동물보호법이 처음으로 만들어졌습니다. 이제는 단지 동물 보호를 넘어, 함께 살아가는 반려동물이 보편화하고 있어요. 최근 조사에 따르면 국민 4명 중 1명은 반려동물을 키우고 있고 그 비율은 꾸준히 증가하고 있죠. 그러나 또 한편으로, 버려지는 동물의 수 역시 가파르게 늘어나고 있습니다.
+                        1978년 10월 15일, 프랑스 파리 <a href="">유네스코 본부</a>에서 선포된 세계 동물권리 선언의 제1조는 “모든 동물은 태어나면서부터 평등한 생명권과 존재할 권리를 가진다.”입니다. 세계 인권선언 이후 30년 만에 동물권 선언이 나온 거죠. 그로부터 10여 년 뒤인 1991년, 한국에서는 동물보호법이 처음으로 만들어졌습니다. 이제는 단지 동물 보호를 넘어, 함께 살아가는 반려동물이 보편화하고 있어요. 최근 조사에 따르면 국민 4명 중 1명은 반려동물을 키우고 있고 그 비율은 꾸준히 증가하고 있죠. 그러나 또 한편으로, 버려지는 동물의 수 역시 가파르게 늘어나고 있습니다.
                         SBS 데이터저널리즘팀 [마부작침]은, 3년 전 '유기동물을 부탁해' 시리즈에서 버려지는 동물의 실태를 데이터에 기반해 종합 분석, 보도한 바 있습니다. 2020년 지금은, 당시의 문제의식을 좀 더 확장해 최근 10년을 진단하고, 더 늦기 전에 우리가 해야 할 일이 무엇일지 모색해보려 합니다.
                     </p>
+
+                    <h3>우리는 지난 10년 간 95만 마리를 버렸다
+                    </h3>
                     <p>
-                        안녕
+                        1978년 10월 15일, 프랑스 파리 유네스코 본부에서 선포된 세계 동물권리 선언의 제1조는 “모든 동물은 태어나면서부터 평등한 생명권과 존재할 권리를 가진다.”입니다. 세계 인권선언 이후 30년 만에 동물권 선언이 나온 거죠. 그로부터 10여 년 뒤인 1991년, 한국에서는 동물보호법이 처음으로 만들어졌습니다. 이제는 단지 동물 보호를 넘어, 함께 살아가는 반려동물이 보편화하고 있어요. 최근 조사에 따르면 국민 4명 중 1명은 반려동물을 키우고 있고 그 비율은 꾸준히 증가하고 있죠. 그러나 또 한편으로, 버려지는 동물의 수 역시 가파르게 늘어나고 있습니다.
                     </p>
+
+                    <h3>어릴수록 많이 버린다?                         
+                    </h3>
+                    <p>
+                        1978년 10월 15일, 프랑스 파리 유네스코 본부에서 선포된 세계 동물권리 선언의 제1조는 “모든 동물은 태어나면서부터 평등한 생명권과 존재할 권리를 가진다.”입니다. 세계 인권선언 이후 30년 만에 동물권 선언이 나온 거죠. 그로부터 10여 년 뒤인 1991년, 한국에서는 동물보호법이 처음으로 만들어졌습니다. 이제는 단지 동물 보호를 넘어, 함께 살아가는 반려동물이 보편화하고 있어요. 최근 조사에 따르면 국민 4명 중 1명은 반려동물을 키우고 있고 그 비율은 꾸준히 증가하고 있죠. 그러나 또 한편으로, 버려지는 동물의 수 역시 가파르게 늘어나고 있습니다.
+                    </p>
+
                 </div>
+
+                <div class="graphic">
+
+                </div>
+
+                <div class="text">
+                    <h2>이것은 2장의 제목입니다</h2>
+                    <p>
+                        1978년 10월 15일, 프랑스 파리 유네스코 본부에서 선포된 세계 동물권리 선언의 제1조는 “모든 동물은 태어나면서부터 평등한 생명권과 존재할 권리를 가진다.”입니다. 세계 인권선언 이후 30년 만에 동물권 선언이 나온 거죠. 그로부터 10여 년 뒤인 1991년, 한국에서는 동물보호법이 처음으로 만들어졌습니다. 이제는 단지 동물 보호를 넘어, 함께 살아가는 반려동물이 보편화하고 있어요. 최근 조사에 따르면 국민 4명 중 1명은 반려동물을 키우고 있고 그 비율은 꾸준히 증가하고 있죠. 그러나 또 한편으로, 버려지는 동물의 수 역시 가파르게 늘어나고 있습니다.
+                    </p>
+
+                </div>
+
+
+                <div class="credit">
+                    <p> 취재 및 자료 수집 <strong>강호동, 김희철</strong> <br>
+                        데이터 분석 <strong>이수근, 이상민</strong> <br>
+                        데이터 시각화 & 디자인 <strong>서장훈</strong> <br>
+                    </p>
+                    <p> Source <br>
+                        Centre for Health Protection <br> 
+                        Data as of December 30, 2020 
+                    </p>
+                    
+                </div>
+
+
             </section>
         </article>
 
         <aside>
-
+            <div class="related_storys">
+                <h3>관련된 이야기</h3>
+                <p><a href="">또 다른 조두순들 어떤 처벌 받았나</a> </p>
+                <p><a href="">노인 보호 못 하는 노인보호구역</a> </p>
+                <p><a href="">또 다른 조두순들 어떤 처벌 받았나</a> </p>
+            </div>
         </aside>
     </main>
 
     <footer>
-
+        <div class="related_label">
+            <p>Copyright © 2020 SBS Ltd. All rights reserved.</p>
+        </div>
     </footer>
 
     <script src="script.js"></script>
